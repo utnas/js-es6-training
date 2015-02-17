@@ -1,4 +1,5 @@
-export default class Picture {
+export default
+class Picture {
 
     constructor(path, direction, brightness) {
         this.path = path;
