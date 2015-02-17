@@ -1,5 +1,5 @@
-//import Picture from "../src/classes/picture.js";
-var Picture = require('../src/classes/picture');
+import Picture from '../src/classes/picture.js';
+//var Picture = require('../src/classes/picture');
 
 describe('Picture class instantiation', function () {
 

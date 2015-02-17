@@ -1,4 +1,4 @@
-class Picture {
+export default class Picture {
 
     constructor(path, direction, brightness) {
         this.path = path;
@@ -18,5 +18,3 @@ class Picture {
         return this.brightness;
     }
 }
-
-export default Picture;
