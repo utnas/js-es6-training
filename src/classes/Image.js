@@ -1,14 +1,21 @@
-class Image extends Picture {
+export default
+class Picture {
 
     constructor(path, direction, brightness) {
-        super(path, direction, brightness);
+        this.path = path;
+        this.direction = direction;
+        this.brightness = brightness;
     }
 
-    static manipulate() {
-        return 'was manipulated by static function';
+    path() {
+        return this.path;
+    }
+
+    direction() {
+        return this.direction;
+    }
+
+    brightness() {
+        return this.brightness;
     }
 }
-
-Image.STATIC_FIELD = "The static field";
-
-export default Image;
